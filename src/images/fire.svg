@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+<style>
+@keyframes main {
+    0% {
+        transform: translate(16px,30px) scale(1,1) translate(-16px,-30px);
+        animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+    }
+    50% {
+        transform: translate(16px,30px) scale(1,1.08) translate(-16px,-30px);
+        animation-timing-function: cubic-bezier(0.42,0,0.58,1);
+    }
+    to {
+        transform: translate(16px,30px) scale(1,1) translate(-16px,-30px);
+    }
+}
+@keyframes a0_t {
+    0% { transform: scale(0,0) translate(0,0); transform-origin:10.5px 12.5px;}
+    16% { transform: scale(1,1) translate(-1.5px, -1px); transform-origin:9px 11.5px;}
+    33% { transform: scale(.3,.3) translate(-.5, -3px); transform-origin:10px 9.5px;}
+    83% { transform: scale(0,0) translate(1px, -6px); transform-origin:11.5px 6.5px;}
+    to { transform: scale(0,0) translate(0,0); transform-origin:10.5px 12.5px;}
+}
+@keyframes a1_t {
+    0% { transform: scale(0,0) translate(0,0); transform-origin:23px 11px;}
+    1% { transform: scale(0,0) translate(0, 0); transform-origin:23px 11px;}
+    33% { transform: scale(.5,.5) translate(-1px,-2px); transform-origin:22px 9px;}
+    66% { transform: scale(1,1) translate(1px,-3px); transform-origin:24px 9px;}
+    99% { transform: scale(0,0) translate(-1px,-5px); transform-origin:22px 6px;}
+    to { transform: scale(0,0) translate(0,0); transform-origin:23px 11px;}
+}
+@keyframes a2_t1 {
+    16% { transform: scale(0,0) translate(0,0); transform-origin:17px 7px; }
+    33% { transform: scale(.5,.5) translate(-1px,-2px); transform-origin:16px 5px;}
+    50% { transform: scale(1,1) translate(1px,-3px); transform-origin:18px 4px; }
+    66% { transform: scale(.5,.5) translate(-1px,-5px); transform-origin:16px 2px;}
+    83% { transform: scale(0,0) translate(-1px,-5px); transform-origin:16px 2px; }
+    to { transform: scale(0,0) translate(0,0); transform-origin:17px 7px; }
+}
+</style>
+    <g fill="#FF8516" style="animation: 1.2s linear infinite both main;">
+        <path d="M23.9544,20.8807C23.71,17.5996,22.2287,15.5435,20.9219,13.7291C19.7118,12.0494,18.6667,10.5989,18.6667,8.45912C18.6667,8.28724,18.5733,8.13015,18.4253,8.05139C18.2769,7.97215,18.0985,7.98513,17.9635,8.08628C16.0009,9.53458,14.3633,11.9756,13.7912,14.3047C13.3941,15.9262,13.3416,17.7491,13.3342,18.953C11.5217,18.5538,11.1111,15.7579,11.1068,15.7275C11.0864,15.5824,11.0005,15.4562,10.8755,15.3873C10.7492,15.3193,10.6007,15.3143,10.4727,15.3797C10.3776,15.4271,8.13975,16.5998,8.00954,21.2817C8.00042,21.4374,8,21.5937,8,21.7499C8,26.2984,11.589,29.9993,16,29.9993C16.0061,29.9997,16.0126,30.0006,16.0178,29.9993C16.0195,29.9993,16.0213,29.9993,16.0234,29.9993C20.4236,29.9863,24,26.2904,24,21.7499C24,21.5211,23.9544,20.8807,23.9544,20.8807ZM16.5,29C15.1214,29,14,27.6466,14,25.983C14,25.9263,13.9996,25.8692,14.0033,25.7991C14.0199,25.0975,14.1375,24.6186,14.2665,24.3C14.5082,24.8882,14.9403,25.4289,15.6422,25.4289C15.8726,25.4289,16.0589,25.2178,16.0589,24.9569C16.0589,24.2849,16.0711,23.5095,16.2188,22.8097C16.3503,22.1893,16.6644,21.5292,17.0623,21C17.2393,21.6868,17.5844,22.2427,17.9213,22.7853C18.4035,23.5615,18.9019,24.3641,18.9894,25.7327C18.9947,25.8138,19,25.8954,19,25.983C18.9999,27.6466,17.8785,29,16.5,29Z"/>
+    </g>
+    <ellipse rx="1.5534" ry="1.5534" cx="10.5" cy="12.5" fill="#ff8516" stroke="none" transform="scale(0,0)" style="animation: 1.2s linear infinite both a0_t"/>
+    <ellipse rx="1" ry="1" cx="23" cy="11" fill="#ff8516" stroke="none" transform="scale(0,0)" style="animation: 1.2s linear infinite both a1_t"/>
+    <ellipse rx="1" ry="1" cx="17" cy="7" fill="#ff8516" stroke="none" transform="scale(0,0)" style="animation: 1.2s linear infinite both a2_t1"/>
+</svg>
