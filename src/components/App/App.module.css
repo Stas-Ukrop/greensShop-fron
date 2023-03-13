@@ -1,0 +1,7 @@
+.containerHeader {
+  width: 1280px;
+  height: 891px;
+  background-image: url('../../images/vegTable.jpg');
+  padding: 15px 15px;
+  position: fixed;
+}
