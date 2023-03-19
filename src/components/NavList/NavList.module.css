@@ -1,0 +1,23 @@
+.main_nav {
+  width: 62px;
+  height: 630px;
+  background-color: #fff;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+ul {
+  padding-left: 0px;
+  justify-content: space-around;
+}
+
+ul > li {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 40px;
+}

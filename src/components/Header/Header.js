@@ -1,13 +1,12 @@
-
-import { Nav } from "components/Nav/Nav"
-import { NavList } from "components/NavList/NavList"
-import { InlogPanel } from "components/InlogPanel/InlogPanel"
+import { Nav } from 'components/Nav/Nav';
+import { NavList } from 'components/NavList/NavList';
+import { InlogPanel } from 'components/InlogPanel/InlogPanel';
+import styles from './Header.module.css';
 export const Header = ({ list, navList, chidren }) => {
-    return <>
-        <div>
-            <NavList navList={navList} />
-            <Nav list={list} />
-            <InlogPanel />
-        </div>
-    </>
-}
+  return (
+    <nav className={styles.navigation}>
+      <Nav list={list} />
+      <InlogPanel />
+    </nav>
+  );
+};

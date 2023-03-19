@@ -1,7 +1,6 @@
 .containerHeader {
-  width: 1280px;
-  height: 891px;
-  background-image: url('../../images/vegTable.jpg');
-  padding: 15px 15px;
-  position: fixed;
+  width: 1900px;
+  height: 1200px;
+  background-image: url('../../images/ryby-ryba-pripravy-eda-ovoshchi-stol.jpg');
+  margin: 0px auto;
 }

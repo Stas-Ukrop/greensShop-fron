@@ -1,6 +1,6 @@
 import styles from './App.module.css';
 import { Header } from 'components/Header/Header';
-
+import { NavList } from 'components/NavList/NavList';
 function App() {
   const mass = ['О нас', 'Оплата', 'Контракты', 'Отзывы', 'Акция'];
   const navList = [
@@ -18,10 +18,10 @@ function App() {
     'Морепродукты',
     'Мясо',
   ];
-  console.log(mass);
   return (
     <div className={styles.containerHeader}>
       <Header list={mass} navList={navList}></Header>
+      <NavList navList={navList} />
     </div>
   );
 }
