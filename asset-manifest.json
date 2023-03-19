@@ -1,14 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fb97d05.css",
-    "main.js": "/static/js/main.7f7c023d.js",
-    "static/media/vegTable.jpg": "/static/media/vegTable.66bbea9dffe3d0fa6d8f.jpg",
-    "index.html": "/index.html",
-    "main.4fb97d05.css.map": "/static/css/main.4fb97d05.css.map",
-    "main.7f7c023d.js.map": "/static/js/main.7f7c023d.js.map"
+    "main.css": "./static/css/main.84d43aaf.css",
+    "main.js": "./static/js/main.8b96a101.js",
+    "static/media/ryby-ryba-pripravy-eda-ovoshchi-stol.jpg": "./static/media/ryby-ryba-pripravy-eda-ovoshchi-stol.7006212d8120f047c55b.jpg",
+    "static/media/5.svg": "./static/media/5.c19193b82cb2bdd57ab13f85ec0e9caa.svg",
+    "static/media/2.svg": "./static/media/2.24c8e0a1027b0ff141b1e0fd9cd7fb25.svg",
+    "static/media/1.svg": "./static/media/1.88ad355735e78bee21a4bd800e640939.svg",
+    "static/media/4.svg": "./static/media/4.0e1bc1492aa832adb3882c9051bce27a.svg",
+    "static/media/thanksgiving.svg": "./static/media/thanksgiving.c0f3864cfde8e71cac8a0c8ecbf01241.svg",
+    "static/media/11.svg": "./static/media/11.bdb87855db60150c4e0e5ae69ea963c7.svg",
+    "static/media/3.svg": "./static/media/3.d93a95a1e423bf17d211f3b7fe00ed0e.svg",
+    "static/media/12.svg": "./static/media/12.27deb851f4b6180d2402f0018a6b1aba.svg",
+    "static/media/9.svg": "./static/media/9.d4c616eebf1c5c38662ea9fd53d9ca92.svg",
+    "static/media/milk.svg": "./static/media/milk.8acb94c9f7d52f1ca2cd8fd2161901cf.svg",
+    "static/media/10.svg": "./static/media/10.3e3337fe619a8c27900679aed5ab1b85.svg",
+    "static/media/fish.svg": "./static/media/fish.8f3c10af9ce500158db7bfbbc615375b.svg",
+    "static/media/8.svg": "./static/media/8.22bed28acd57a4f166f97889c8d46082.svg",
+    "index.html": "./index.html",
+    "main.84d43aaf.css.map": "./static/css/main.84d43aaf.css.map",
+    "main.8b96a101.js.map": "./static/js/main.8b96a101.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb97d05.css",
-    "static/js/main.7f7c023d.js"
+    "static/css/main.84d43aaf.css",
+    "static/js/main.8b96a101.js"
   ]
 }
