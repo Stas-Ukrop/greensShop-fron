@@ -1,31 +1,30 @@
 .headerMainMenuClientItem {
   height: 40px;
-  display: flex;
   align-items: center;
-  margin-right: 15px;
 }
 
-.headerMainMenuClientItem:last-child {
-  margin-right: 0px;
-}
-
-.header-client-goods {
-  /* position: absolute; */
-  bottom: 3px;
-  right: 10px;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #96c93d;
-  text-align: center;
-  color: #fff;
-  font-size: 13px;
-}
-
-.flex_text {
+.flexText {
   display: flex;
-  justify-content: space-around;
-  width: auto;
+  margin-left: auto;
+}
+
+input {
+  width: 500px;
+  border-radius: 15px;
+}
+
+svg {
+  width: 32px;
+  height: 32px;
+}
+
+.flexText > li {
+  margin-right: 40px;
+}
+
+.headerMainMenuClientItem svg:hover {
+  fill: #96c93d;
+  color: #96c93d;
 }
 
 /* 

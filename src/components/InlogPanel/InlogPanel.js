@@ -4,7 +4,7 @@ import styles from './InLogPanel.module.css';
 export const InlogPanel = () => {
   return (
     <>
-      <ul className={styles.flex_text}>
+      <ul className={styles.flexText}>
         <li>
           <input type="text" placeholder="введите ваш запрос" />
         </li>
