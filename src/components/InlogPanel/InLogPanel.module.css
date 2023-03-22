@@ -27,6 +27,10 @@ svg {
   color: #96c93d;
 }
 
+button {
+  overflow: hidden;
+}
+
 /* 
 .header__top-item-find {
     width: 450px;
