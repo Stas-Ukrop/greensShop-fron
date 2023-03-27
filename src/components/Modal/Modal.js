@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import styles from './Modal.module.css';
-import svg from '../../images/vegTable.jpg';
-import LoginView from 'components/LoginView/LoginView';
 
 const modalRoot = document.getElementById('modal-root');
 

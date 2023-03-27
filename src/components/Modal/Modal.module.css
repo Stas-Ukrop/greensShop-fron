@@ -13,8 +13,8 @@
 
 .Modal {
   position: relative;
-  width: 600px;
-  height: 500px;
+  width: 540px;
+  height: 360px;
   /* max-width: calc(100vw - 48px);
     max-height: calc(100vh - 24px); */
   background-color: rgba(194, 201, 238, 0.884);

@@ -4,9 +4,11 @@ import { CgShoppingCart } from 'react-icons/cg';
 import styles from './InLogPanel.module.css';
 import Modal from 'components/Modal/Modal';
 import LoginView from 'components/LoginView/LoginView';
+import RegisterView from 'components/RegisterView/RegisterView';
 
 export const InlogPanel = () => {
   const [showModal, setShowModal] = useState(false);
+  const [showRegistr, setShowRegistr] = useState(true);
 
   const openModal = useCallback(() => {
     return setShowModal(true);
@@ -14,7 +16,9 @@ export const InlogPanel = () => {
   const onCloseModal = useCallback(() => {
     setShowModal(false);
   }, []);
-
+  const changeForm = useCallback(() => {
+    return setShowRegistr(!showRegistr);
+  }, [showRegistr]);
   return (
     <>
       <ul className={styles.flexText}>
@@ -22,14 +26,14 @@ export const InlogPanel = () => {
           <input type="text" placeholder="введите ваш запрос" />
         </li>
         <li className={styles.headerMainMenuClientItem}>
-          <VscAccount />
-        </li>
-        <li className={styles.headerMainMenuClientItem}>
-          <CgShoppingCart
+          <VscAccount
             onClick={() => {
               setShowModal(true);
             }}
           />
+        </li>
+        <li className={styles.headerMainMenuClientItem}>
+          <CgShoppingCart />
         </li>
       </ul>
       {showModal && (
@@ -39,7 +43,14 @@ export const InlogPanel = () => {
             className={styles.btn_close_modal}
             onClick={onCloseModal}
           ></button>
-          <LoginView />
+          {showRegistr ? <LoginView /> : <RegisterView />}
+          <button
+            type="button"
+            className={styles.btn_close_modal}
+            onClick={changeForm}
+          >
+            {showRegistr ? 'Зарегестрироваться' : 'Залогиниться'}
+          </button>
         </Modal>
       )}
     </>
