@@ -13,4 +13,9 @@
   width: auto;
   height: auto;
   background-color: aquamarine;
+  z-index: 1;
+}
+
+.blockMain div {
+  z-index: 1;
 }
