@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useCallback } from 'react';
 import { VscAccount } from 'react-icons/vsc';
 import { CgShoppingCart } from 'react-icons/cg';
 import styles from './InLogPanel.module.css';
