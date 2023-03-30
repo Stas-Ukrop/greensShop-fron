@@ -78,7 +78,6 @@ export const NavList = () => {
       </li>
       <li>
         <NavLink to="/meat" className={styles.styleLink}>
-          {' '}
           <img src={svg[12]} alt="meat" />
           <span className={styles.navListSpan}>Мясо</span>
         </NavLink>

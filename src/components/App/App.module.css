@@ -3,19 +3,20 @@
   height: 1200px;
   background-image: url('../../images/ryby-ryba-pripravy-eda-ovoshchi-stol.jpg');
   margin: 0px auto;
+  position: relative;
 }
 
 .flexDir {
+  position: absolute;
+  z-index: 12;
   display: flex;
 }
 
 .blockMain {
-  width: auto;
-  height: auto;
-  background-color: aquamarine;
-  z-index: 1;
-}
-
-.blockMain div {
-  z-index: 1;
+  border-radius: 16px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 92%;
+  height: 90%;
+  background-color: blue;
 }
