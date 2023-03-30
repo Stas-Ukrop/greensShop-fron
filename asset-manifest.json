@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.299923ac.css",
-    "main.js": "./static/js/main.8bcd3395.js",
+    "main.css": "./static/css/main.fb0c6991.css",
+    "main.js": "./static/js/main.d9d06d47.js",
     "static/media/ryby-ryba-pripravy-eda-ovoshchi-stol.jpg": "./static/media/ryby-ryba-pripravy-eda-ovoshchi-stol.7006212d8120f047c55b.jpg",
     "static/media/5.svg": "./static/media/5.c19193b82cb2bdd57ab13f85ec0e9caa.svg",
     "static/media/2.svg": "./static/media/2.24c8e0a1027b0ff141b1e0fd9cd7fb25.svg",
@@ -17,11 +17,11 @@
     "static/media/fish.svg": "./static/media/fish.8f3c10af9ce500158db7bfbbc615375b.svg",
     "static/media/8.svg": "./static/media/8.22bed28acd57a4f166f97889c8d46082.svg",
     "index.html": "./index.html",
-    "main.299923ac.css.map": "./static/css/main.299923ac.css.map",
-    "main.8bcd3395.js.map": "./static/js/main.8bcd3395.js.map"
+    "main.fb0c6991.css.map": "./static/css/main.fb0c6991.css.map",
+    "main.d9d06d47.js.map": "./static/js/main.d9d06d47.js.map"
   },
   "entrypoints": [
-    "static/css/main.299923ac.css",
-    "static/js/main.8bcd3395.js"
+    "static/css/main.fb0c6991.css",
+    "static/js/main.d9d06d47.js"
   ]
 }
